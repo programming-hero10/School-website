@@ -153,14 +153,13 @@ main {
   }
   .gallery {
     padding: 50px 350px;
-    background: #F9FBFD;
-    & h1{
-        margin-bottom: 50px;
+    background: #f9fbfd;
+    & h1 {
+      margin-bottom: 50px;
     }
-    & a{
-        
-        margin-left:44%;
-        margin-top: 50px;
+    & a {
+      margin-left: 44%;
+      margin-top: 50px;
     }
     .images {
       display: grid;
@@ -172,4 +171,28 @@ main {
       }
     }
   }
+}
+footer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 150px 150px;
+  gap: 100px;
+  & h2{
+    margin-bottom: 20px;
+  }
+  & .logo {
+    width: 52px;
+    margin-bottom: 20px;
+  }
+  & p{
+    margin-bottom: 20px;
+  }
+  & .img img{
+    width: 32px;
+  }
+}
+.Copyright{
+    text-align: center;
+    padding: 20px 0;
 }
